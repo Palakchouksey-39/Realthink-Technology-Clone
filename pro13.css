@@ -9,6 +9,9 @@ html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+::placeholder{
+  padding: unset;
+}
 .container-fluid {
   width: 100%;
   /* display: table; */
@@ -410,10 +413,12 @@ span {
 }
 .div-col1 {
   border: 17px solid #70d6ff;
+  border-radius: 15px 15px 0px  15px;
   margin-left: 10px;
 }
 .div-col2 {
   border: 17px solid #ff70a6;
+  border-radius: 15px 15px 15PX 0px;
   clear: left;
   float: right;
   margin-right: 10px;
@@ -421,12 +426,14 @@ span {
 }
 .div-col3 {
   border: 17px solid #ff9770;
+  border-radius: 15px 15px 0px 15px;
   margin-left: 10px;
   clear: right;
   float: left;
 }
 .div-col4 {
   border: 17px solid #ffd670;
+  border-radius: 15px 15px 15PX 0px;
   clear: left;
   float: right;
   margin-top: 32px;
@@ -438,7 +445,6 @@ span {
   text-align: center;
   padding: 18px;
   font-family: Open Sans, sans-serif;
-  border-radius: 15px 15px 0 15px;
   background-color: #fff;
   align-content: center;
 }
@@ -446,9 +452,7 @@ span {
 .main-doted-res {
   display: none;
 }
-::placeholder {
-  margin-left: 10px;
-}
+
 .first-img {
   width: 50px;
   margin-top: -1px;
@@ -808,15 +812,13 @@ textarea:focus {
 .text2 {
   margin-left: 19px;
 }
-::placeholder {
-  padding-left: 6px;
-}
+
 .input-col1 {
   display: flex;
 }
 
 #text3 {
-  padding: 8px 48px 8px 21px;
+  padding: 8px 61px 8px 8px;
   border: none;
   border-radius: 7px;
   margin-top: 20px;
@@ -948,9 +950,8 @@ textarea:focus {
 .dabba {
   width: 100%;
 }
-#yellow::placeholder {
-  padding-right: 50px;
-}
+
+
 .last-footer-end {
   width: 88%;
   margin: auto;
@@ -1685,7 +1686,7 @@ textarea:focus {
 }
 .send-me {
   width: 54px;
-  height: 48px;
+  height: 47px;
   margin-right: -17px;
 }
 .div1,.div2,.div3,.three{
